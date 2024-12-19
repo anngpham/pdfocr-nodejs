@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+    pdf-ocr:
+        container_name: pdf-ocr
+        image: pdf-ocr
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "5500:5500"
+        volumes:
+            - ./storage:/home/storage
+        environment:
+            - NODE_ENV=production
+            - PORT=5500
+        restart: unless-stopped

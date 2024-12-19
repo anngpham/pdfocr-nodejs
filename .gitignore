@@ -1,0 +1,9 @@
+*~
+.log
+storage/
+node_modules/
+.env
+uploads/
+dist/
+.DS_Store
+eng.traineddata
