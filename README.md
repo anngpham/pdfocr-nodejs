@@ -2,6 +2,8 @@
 
 A REST API service that converts PDF documents (including those with images) into LLM-ready text format. This service helps prepare your PDF data for Large Language Model applications by extracting text from both standard PDFs and those containing images.
 
+![PDF to Text Converter](pdfocr-nodejs.png)
+
 [![Docker Hub](https://img.shields.io/docker/pulls/anngpham/pdf-ocr)](https://hub.docker.com/r/anngpham/pdf-ocr)
 
 ## Features
